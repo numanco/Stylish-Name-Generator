@@ -21,7 +21,7 @@ export default function Generator({ initialName = "Your Name", onCopy }: Generat
   const [activeCategory, setActiveCategory] = useState("Popular");
   const [copiedId, setCopiedId] = useState<string | null>(null);
   
-  const [textColor, setTextColor] = useState("#1A1A1A");
+  const [textColor, setTextColor] = useState("#FFFFFF");
   const [gradientColor, setGradientColor] = useState("");
   const [searchQuery, setSearchQuery] = useState("");
   

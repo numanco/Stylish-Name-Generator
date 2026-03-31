@@ -18,7 +18,7 @@ import { HistoryProvider, useHistory } from "./context/HistoryContext";
 
 function Layout({ children }: { children: React.ReactNode }) {
   const { setShowHistory, history } = useHistory();
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
   const [showLangs, setShowLangs] = useState(false);
 
   useEffect(() => {
